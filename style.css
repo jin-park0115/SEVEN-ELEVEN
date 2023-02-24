@@ -1,0 +1,54 @@
+@charset "utf-8";
+#wrap{
+}
+.header-area{
+    margin: 0 auto;
+    padding: 0px 24px 0px 24px;
+    width: 100%;
+    max-width: 1280px;
+}
+.header-top{
+    margin-top: 10px;
+}
+.header-top .top-info{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-info li{
+    margin-right: 30px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.top-info li:last-child{
+    margin-right: 0;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    margin-top: 30px;
+}
+.header-bottom .bottom-menu{
+    display: flex;
+}
+.bottom-menu li{
+    margin-right: 24px;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: 11111;
+}
+.bottom-menu li:last-child{
+    margin-right: 0;
+}
+/* 헤더 끝 */
+
+/* 베너시작 */
+.banner{
+    margin-top: 40px;
+    width: 80vw;
+    overflow: hidden;
+    border-radius: 0px 0px 48px 48px;
+    height: 32vw;
+    margin: 0 auto;
+}
